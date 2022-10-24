@@ -66,6 +66,8 @@
 }
 
 /* main */
+
+/* row 1 */
 .row-main-1{
     background-color: lightgray;
     display: flex;
@@ -83,4 +85,59 @@
     height: 300px;
     width: 30%;
     background-color: coral;
+}
+
+/* row 2 */
+.row-main-2{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.col-1-main-2{
+    height: 300px;
+    width: 30%;
+    background-color: coral;
+}
+.col-2-main-2{
+    height: 300px;
+    width: 40%;
+    background-color: cornflowerblue;
+}
+
+/* row 3 */
+.row-main-3{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.col-1-main-3{
+    height: 300px;
+    width: 40%;
+    background-color: cornflowerblue;
+}
+.col-2-main-3{
+    height: 300px;
+    width: 30%;
+    background-color: coral;
+}
+
+/* row 4 */
+.row-main-4{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.col-main-4{
+    background-color: green;
+    height: 500px;
+    width: 70%;
 }
