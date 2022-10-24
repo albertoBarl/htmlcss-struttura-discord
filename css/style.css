@@ -3,3 +3,42 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+/* header */
+.row-header-1{
+    height: 75px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 12.5px;
+}
+
+.box-header{
+    height: 50px;
+    width: 60%;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo{
+    width: calc(100% / 3);
+    text-align: left;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.menu{
+    width: calc(100% / 3 + 25%);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.login{
+    width: calc(100% / 3);
+    text-align: right;
+    padding-right: 10px;
+    border: 1px solid black;
+}
