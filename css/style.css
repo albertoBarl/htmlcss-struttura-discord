@@ -67,74 +67,29 @@
 }
 
 /* main */
-
-/* row 1 */
-.row-main-1{
+.rowmain{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
 }
 
-.col-1-main-1{
+.rowgrey{
+    background-color: lightgray;
+}
+
+.col-large{
     height: 300px;
     width: 40%;
     background-color: #1D90FF ;
 }
-.col-2-main-1{
+.col-small{
     height: 300px;
     width: 30%;
     background-color: #F08080;
 }
 
-/* row 2 */
-.row-main-2{
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0px;
-}
-
-.col-1-main-2{
-    height: 300px;
-    width: 30%;
-    background-color: #F08080;
-}
-.col-2-main-2{
-    height: 300px;
-    width: 40%;
-    background-color: #1D90FF;
-}
-
-/* row 3 */
-.row-main-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0px;
-}
-
-.col-1-main-3{
-    height: 300px;
-    width: 40%;
-    background-color: #1D90FF;
-}
-.col-2-main-3{
-    height: 300px;
-    width: 30%;
-    background-color: #F08080;
-}
-
-/* row 4 */
-.row-main-4{
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0px;
-}
-
+/* row 4 main */
 .col-main-4{
     background-color: green;
     height: 500px;
@@ -147,6 +102,7 @@
     background-color: #22272B;
 }
 
+/* row 1 footer */
 .row-footer-1{
     display: flex;
     justify-content: center;
@@ -156,36 +112,19 @@
     border-bottom: 1px solid lightgray;
 }
 
-.col-1-footer-1{
+.col-large-footer-1{
     height: 300px;
     background-color: #F08080;
     width: calc(60% / 5 + 10%);
 }
 
-.col-2-footer-1{
+.col-small-footer-1{
     height: 300px;
     background-color: #20B2AA;
     width: calc(60% / 5);
 }
 
-.col-3-footer-1{
-    height: 300px;
-    background-color: #20B2AA;
-    width: calc(60% / 5);
-}
-
-.col-4-footer-1{
-    height: 300px;
-    background-color: #20B2AA;
-    width: calc(60% / 5);
-}
-
-.col-5-footer-1{
-    height: 300px;
-    background-color: #20B2AA;
-    width: calc(60% / 5);
-}
-
+/* row 2 footer */
 .row-footer-2{
     display: flex;
     justify-content: center;
@@ -205,7 +144,6 @@
 .col-1-footer-2{
     padding: 0px 5px;
     background-color: #F08080;
-    vertical-align: middle;
     height: auto;
     line-height: 19px;
 }
