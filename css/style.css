@@ -5,14 +5,18 @@
 }
 
 /* header */
+.container-header{
+    background-color: skyblue;
+}
+
 .row-header-1{
     height: 75px;
-    background-color: skyblue;
     display: flex;
     justify-content: center;
     padding-top: 12.5px;
 }
 
+/* row 1 header */
 .box-header{
     height: 50px;
     width: 60%;
@@ -43,6 +47,7 @@
     border: 1px solid black;
 }
 
+/* row 2 header */
 .row-header-2{
     height: 400px;
     background-color: navy;
@@ -57,3 +62,6 @@
     border: 3px solid red;
     width: 70%;
 }
+
+/* main */
+
